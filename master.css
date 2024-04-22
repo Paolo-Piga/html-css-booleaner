@@ -1,0 +1,113 @@
+body, html{
+    
+    margin: 0;
+}
+
+/* font */
+
+*{
+    font-family: "Times New Roman";
+}
+/* sfonod titolo */
+.container{
+    background-image: url(img/pattern.png);
+    height: 200px;
+    background-color: #3FB5E8;
+    background-repeat: repeat;
+    background-size:auto;
+}
+/* logo */
+#logo{
+    height: auto;
+    width: 300px;
+    position: absolute;
+    top: 120px;
+    
+}
+
+#titolo{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.scritto{
+    color: gray;
+    font-size: 20px;
+    padding: 0;
+}
+
+#the{
+    color: #4EA0FF;
+    font-size: 20px;
+}
+
+#data{
+    color: gray;
+    font-size: 10px;
+    padding: 0;
+}
+
+.tim{
+    width: 100%;
+}
+
+.images img{
+    min-width: 40%;
+    height:450px;
+    flex-shrink: 0;
+    padding: 0;
+}
+
+.images, h6{
+    padding:0;
+    
+}
+
+.giallo{
+    background-color: yellow;
+}
+
+table{
+    text-align: left;
+    width:100%;
+    border-collapse: collapse;
+}
+
+th{
+    color: white;
+    background-color: #4EA0FF;
+    font-size: 20px;
+    font-weight: bold;
+    width:400px;
+}
+
+td{
+    font-size: 20px;
+}
+
+.blue> td{
+    background-color: #3FB5E8;
+}
+
+#monitor{
+    background-image: url(img/monitor.jpg);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: center;
+}
+
+#grafico{
+    background-image: url(img/Grafico.jpg);
+    height: 200px;
+    
+    background-repeat: no-repeat;
+    
+}
